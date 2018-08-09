@@ -1,0 +1,14 @@
+C:\projekt\ProductsManagement\ProductsManagement\bin\Debug\netcoreapp2.1\ProductsManagement.deps.json
+C:\projekt\ProductsManagement\ProductsManagement\bin\Debug\netcoreapp2.1\ProductsManagement.runtimeconfig.json
+C:\projekt\ProductsManagement\ProductsManagement\bin\Debug\netcoreapp2.1\ProductsManagement.runtimeconfig.dev.json
+C:\projekt\ProductsManagement\ProductsManagement\bin\Debug\netcoreapp2.1\ProductsManagement.dll
+C:\projekt\ProductsManagement\ProductsManagement\bin\Debug\netcoreapp2.1\ProductsManagement.pdb
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.csprojAssemblyReference.cache
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.csproj.CoreCompileInputs.cache
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.RazorAssemblyInfo.cache
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.RazorAssemblyInfo.cs
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.AssemblyInfoInputs.cache
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.AssemblyInfo.cs
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.RazorTargetAssemblyInfo.cache
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.dll
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.pdb

@@ -30,3 +30,8 @@ C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\Product
 C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.dll
 C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.pdb
 C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\ProductsManagement.csproj.CopyComplete
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\Razor\Views\Products\Create.g.cshtml.cs
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\Razor\Views\Products\Delete.g.cshtml.cs
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\Razor\Views\Products\Details.g.cshtml.cs
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\Razor\Views\Products\Edit.g.cshtml.cs
+C:\projekt\ProductsManagement\ProductsManagement\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.g.cshtml.cs

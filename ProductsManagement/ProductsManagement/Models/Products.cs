@@ -7,7 +7,7 @@ namespace ProductsManagement.Models
 {
     public class Products
     {
-        public int Products_ID { get; set; }
+        public int ID { get; set; }
         public string Product_Name { get; set; }
         public string Product_Description { get; set; }
         public int category_ID { get; set; }

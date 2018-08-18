@@ -7,7 +7,9 @@ namespace ProductsManagement.Models
 {
     public class Category
     {
-        public int Category_ID { get; set; }
+        public int ID { get; set; }
         public string Category_Name { get; set; }
+
+        public virtual ICollection<Products> Product { get; set; } 
     }
 }

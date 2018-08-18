@@ -14,5 +14,6 @@ namespace ProductsManagement.Models
         }
 
         public DbSet<ProductsManagement.Models.Products> Products { get; set; }
+        public DbSet<ProductsManagement.Models.Category> Categories { get; set; }
     }
 }

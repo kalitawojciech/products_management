@@ -13,3 +13,4 @@
 Gdybym mia³ wiêcej czasu doda³bym w miejsce Category_ID wyœwietlanie odpowiednich nazw z tabeli Category
 oraz doda³bym wybór nazwy kategorii z listy przy Tworzeniu i Zmianie produktów 
 sortowanie produktów wed³ug nazw, kategorii, ceny
+zbêdne pliki bym usun¹³

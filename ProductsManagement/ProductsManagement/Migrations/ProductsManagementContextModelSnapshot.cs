@@ -29,7 +29,14 @@ namespace ProductsManagement.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Category");
+
+                    b.HasData(
+                        new { ID = 1, Category_Name = "Book" },
+                        new { ID = 2, Category_Name = "Sport" },
+                        new { ID = 3, Category_Name = "Games" },
+                        new { ID = 4, Category_Name = "Food" }
+                    );
                 });
 
             modelBuilder.Entity("ProductsManagement.Models.Products", b =>
@@ -57,6 +64,12 @@ namespace ProductsManagement.Migrations
                     b.HasIndex("CategoryID");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new { ID = 1, Product_Description = "This ball is perfect to play football", Product_Name = "Ball", Products_Price = 11.5, category_ID = 2 },
+                        new { ID = 2, Product_Description = "You play as a Gerald from Rivia, the best monster killer.", Product_Name = "The Witcher 3: wild hund", Products_Price = 110.0, category_ID = 3 },
+                        new { ID = 3, Product_Description = "Tradicional italian pizza made from the best ingridiens", Product_Name = "Pizza", Products_Price = 25.99, category_ID = 4 }
+                    );
                 });
 
             modelBuilder.Entity("ProductsManagement.Models.Products", b =>

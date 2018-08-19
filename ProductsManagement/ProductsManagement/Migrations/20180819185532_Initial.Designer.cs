@@ -10,7 +10,7 @@ using ProductsManagement.Models;
 namespace ProductsManagement.Migrations
 {
     [DbContext(typeof(ProductsManagementContext))]
-    [Migration("20180818133123_Initial")]
+    [Migration("20180819185532_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,7 +31,14 @@ namespace ProductsManagement.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Category");
+
+                    b.HasData(
+                        new { ID = 1, Category_Name = "Book" },
+                        new { ID = 2, Category_Name = "Sport" },
+                        new { ID = 3, Category_Name = "Games" },
+                        new { ID = 4, Category_Name = "Food" }
+                    );
                 });
 
             modelBuilder.Entity("ProductsManagement.Models.Products", b =>
@@ -42,9 +49,13 @@ namespace ProductsManagement.Migrations
 
                     b.Property<int?>("CategoryID");
 
-                    b.Property<string>("Product_Description");
+                    b.Property<string>("Product_Description")
+                        .IsRequired()
+                        .HasMaxLength(120);
 
-                    b.Property<string>("Product_Name");
+                    b.Property<string>("Product_Name")
+                        .IsRequired()
+                        .HasMaxLength(60);
 
                     b.Property<double>("Products_Price");
 
@@ -55,6 +66,12 @@ namespace ProductsManagement.Migrations
                     b.HasIndex("CategoryID");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new { ID = 1, Product_Description = "This ball is perfect to play football", Product_Name = "Ball", Products_Price = 11.5, category_ID = 2 },
+                        new { ID = 2, Product_Description = "You play as a Gerald from Rivia, the best monster killer.", Product_Name = "The Witcher 3: wild hund", Products_Price = 110.0, category_ID = 3 },
+                        new { ID = 3, Product_Description = "Tradicional italian pizza made from the best ingridiens", Product_Name = "Pizza", Products_Price = 25.99, category_ID = 4 }
+                    );
                 });
 
             modelBuilder.Entity("ProductsManagement.Models.Products", b =>

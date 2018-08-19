@@ -12,13 +12,13 @@ namespace ProductsManagement.Models
         public int ID { get; set; }
         [Display(Name ="Product's Name")]
         [StringLength(60, MinimumLength = 3)]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""-]*$", ErrorMessage = "Product's name must consist letters, numbers, $*-+")]
+        [RegularExpression(@"^[a-zA-Z]+[a-zA-Z0-9""-]*$", ErrorMessage = "Product's name must consist letters, numbers, $*-+ and begin from letter")]
         [Required]
         public string Product_Name { get; set; }
 
         [Display(Name = "Product's Description")]
         [Required]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""-]*$", ErrorMessage = "Product's dascription must consist letters, numbers, $*-+")]
+        [RegularExpression(@"^[a-zA-Z]+[a-zA-Z0-9""-]*$", ErrorMessage = "Product's dascription must consist letters, numbers, $*-+ and begin from letter")]
         [StringLength(120, MinimumLength = 3)]
         public string Product_Description { get; set; }
 

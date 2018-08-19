@@ -40,9 +40,13 @@ namespace ProductsManagement.Migrations
 
                     b.Property<int?>("CategoryID");
 
-                    b.Property<string>("Product_Description");
+                    b.Property<string>("Product_Description")
+                        .IsRequired()
+                        .HasMaxLength(120);
 
-                    b.Property<string>("Product_Name");
+                    b.Property<string>("Product_Name")
+                        .IsRequired()
+                        .HasMaxLength(60);
 
                     b.Property<double>("Products_Price");
 

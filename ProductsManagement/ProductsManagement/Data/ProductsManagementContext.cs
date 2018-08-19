@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using ProductsManagement.Data;
 
 namespace ProductsManagement.Models
 {
@@ -14,6 +15,12 @@ namespace ProductsManagement.Models
         }
 
         public DbSet<ProductsManagement.Models.Products> Products { get; set; }
-        public DbSet<ProductsManagement.Models.Category> Categories { get; set; }
+        public DbSet<ProductsManagement.Models.Category> Category { get; set; }
+        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+        }
+
     }
 }
